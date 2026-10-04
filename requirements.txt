@@ -9,3 +9,9 @@ ultralytics
 paddlepaddle
 paddleocr
 vietocr
+torch
+torchvision
+torchaudio
+pillow
+PyMuPDF
+requests

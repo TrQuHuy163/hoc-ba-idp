@@ -1,2 +1,11 @@
-uvicorn
 fastapi
+uvicorn
+python-multipart
+opencv-python-headless
+numpy
+pandas
+lxml
+ultralytics
+paddlepaddle
+paddleocr
+vietocr

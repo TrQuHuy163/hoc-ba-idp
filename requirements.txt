@@ -16,3 +16,5 @@ pillow
 PyMuPDF
 requests
 streamlit
+rapidfuzz
+scikit-learn

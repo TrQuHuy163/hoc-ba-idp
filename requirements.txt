@@ -2,7 +2,7 @@ fastapi
 uvicorn
 python-multipart
 opencv-python-headless
-numpy
+numpy<2.0.0,>=1.26.0
 pandas
 lxml
 ultralytics

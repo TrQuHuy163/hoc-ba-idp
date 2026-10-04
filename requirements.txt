@@ -15,3 +15,4 @@ torchaudio
 pillow
 PyMuPDF
 requests
+streamlit

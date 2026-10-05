@@ -524,7 +524,7 @@
             try {
                 const response = await fetch('/api/process', { method: 'POST', body: formData });
                 stopLoadingStatus();
-                if (!response.ok) throw new Error(response.status === 500 ? 'Máy chủ AI gặp sự cố.' : 'Lỗi HTTP ' + response.status);
+                if (!response.ok) throw new Error(response.status === 500 ? 'Không thể đọc, Vui lòng tải ảnh khác!' : 'Lỗi HTTP ' + response.status);
 
                 const data = await response.json();
                 document.getElementById('loading').classList.add('hidden');
